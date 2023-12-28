@@ -3,7 +3,7 @@
     <_name>J Tech Community Laser Tool</_name>
     <id>community.jtechphotonics.com</id>
 	<dependency type="executable" location="inx">laser.py</dependency>
-	<dependency type="executable" location="extensions">inkex.py</dependency>
+	<!-- <dependency type="executable" location="extensions">inkex.py</dependency> -->
 
 	<param name="tabs" type="notebook">
 		<page name="important_settings" gui-text="Important Settings">
