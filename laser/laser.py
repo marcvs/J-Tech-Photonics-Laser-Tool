@@ -63,10 +63,10 @@ class GcodeExtension(EffectExtension):
 
         header = None
         if os.path.isfile(self.options.header_path):
-            logger.debug(F"going to read{self.options.header_path}")
+            # logger.debug(F"going to read{self.options.header_path}")
             with open(self.options.header_path, 'r') as header_file:
                 header = header_file.read().splitlines()
-                logger.debug(F"This is my header: >>>{header}<<<")
+                # logger.debug(F"This is my header: >>>{header}<<<")
         elif self.options.header_path != os.getcwd():
             self.debug(f"Header file does not exist at {self.options.header_path}")
 
